@@ -1,7 +1,8 @@
 name: autograding
 
-on: [push]
-
+on:
+  workflow_dispatch:
+  
 jobs:
   build:
 
